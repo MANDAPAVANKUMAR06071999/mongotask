@@ -16,8 +16,8 @@ app.post('/show_user_details',retrieveController.retrievedata);
 app.post('/update_user_data',updateController.updatedata);
 
 
-app.listen(7002,()=>{
-    console.log("Server started and running at port number 7002");
+app.listen(7099,()=>{
+    console.log("Server started and running at port number 7099");
     Connect();
 })
 
