@@ -1,8 +1,6 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
-const util = require('util');
-const TextEncoder = new util.TextEncoder();
 
 const registeruserController = require('./Controllers/registeruserController');
 const loginController = require('./Controllers/loginController');
